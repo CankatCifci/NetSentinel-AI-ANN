@@ -125,12 +125,14 @@ interface = 'Wi-Fi'  # Ya da 'Ethernet'
 # Tshark komutunu çalıştırıyoruz
 tshark_command = [tshark_path, "-i", interface, "-c", "10"]  # Burada "-c 10" ile 10 paket yakalıyoruz
 
+# Gerçek zamanlı izleme yapabilmek için döngü ekliyoruz
 try:
-    # Tshark komutunu çalıştırıyoruz ve çıktıyı yakalıyoruz
-    result = subprocess.run(tshark_command, capture_output=True, text=True, check=True, encoding='utf-8')
+    while True:
+        # Tshark komutunu çalıştırıyoruz ve çıktıyı yakalıyoruz
+        result = subprocess.run(tshark_command, capture_output=True, text=True, check=True, encoding='utf-8')
 
-    # Tshark çıktısını yazdırıyoruz
-    print(result.stdout)
+        # Tshark çıktısını yazdırıyoruz
+        print(result.stdout)
 
 except subprocess.CalledProcessError as e:
     print(f"Tshark komutunu çalıştırırken hata oluştu: {e}")
