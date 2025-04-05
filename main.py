@@ -5,12 +5,10 @@ import torch.nn as nn
 import torch.optim as optim
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder, StandardScaler
-from sklearn.metrics import accuracy_score, classification_report
+from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 
 # Veri setini yükle
 df = pd.read_csv("Darknet.CSV", on_bad_lines='skip')
-
-
 
 # Gereksiz sütunları kaldır
 drop_columns = ['Flow ID', 'Src IP', 'Dst IP', 'Timestamp']
@@ -44,7 +42,6 @@ X_test_tensor = torch.tensor(X_test, dtype=torch.float32)
 y_train_tensor = torch.tensor(y_train, dtype=torch.long)
 y_test_tensor = torch.tensor(y_test, dtype=torch.long)
 
-
 # Yapay Sinir Ağı Modeli Tanımla
 class ANN(nn.Module):
     def __init__(self, input_size, hidden_size, output_size):
@@ -61,7 +58,6 @@ class ANN(nn.Module):
         x = self.relu(x)
         x = self.fc3(x)
         return x
-
 
 # Model parametreleri
 input_size = X_train.shape[1]
@@ -101,3 +97,20 @@ with torch.no_grad():
 accuracy = accuracy_score(y_test, y_pred)
 print(f"Model Doğruluk Oranı: {accuracy:.4f}")
 print(classification_report(y_test, y_pred, target_names=label_encoder.classes_))
+
+# Confusion Matrix hesaplama
+cm = confusion_matrix(y_test, y_pred)
+print("\n🧮 Confusion Matrix:")
+print(cm)
+
+# Detection Rate (Doğruluk Oranı) hesaplama
+TP = cm[1, 1]
+FN = cm[1, 0]
+Detection_Rate = TP / (TP + FN)
+print(f"Detection Rate (Doğruluk Oranı): {Detection_Rate:.4f}")
+
+# False Alarm Rate (Yanlış Alarm Oranı) hesaplama
+FP = cm[0, 1]
+TN = cm[0, 0]
+False_Alarm_Rate = FP / (FP + TN)
+print(f"False Alarm Rate (Yanlış Alarm Oranı): {False_Alarm_Rate:.4f}")
