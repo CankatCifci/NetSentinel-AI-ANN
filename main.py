@@ -7,6 +7,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder, StandardScaler
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 import subprocess
+import re
 
 # Veri setini yükle
 df = pd.read_csv("Darknet.CSV", on_bad_lines='skip')
@@ -125,19 +126,105 @@ interface = 'Wi-Fi'  # Ya da 'Ethernet'
 # Tshark komutunu çalıştırıyoruz
 tshark_command = [tshark_path, "-i", interface, "-c", "10"]  # Burada "-c 10" ile 10 paket yakalıyoruz
 
-# Gerçek zamanlı izleme yapabilmek için döngü ekliyoruz
+
+# Tshark çıktısını işle
+def process_tshark_output(output):
+    """
+    Tshark çıktısını işle ve modelin anlayacağı formata dönüştür.
+    Bu fonksiyon, tshark çıktısından gerekli ağ trafiği verilerini çıkarır
+    ve bunları modelin tahmin yapabileceği sayısal verilere dönüştürür.
+    """
+    processed_data = []
+
+    for line in output.splitlines():
+        # Zaman damgası (ilk sütun)
+        time_match = re.match(r"^\s*(\d+\.\d+)\s", line)
+        if time_match:
+            timestamp = float(time_match.group(1))
+        else:
+            continue
+
+        # Kaynak ve hedef IP'ler (IP adresi arayışı)
+        ip_match = re.search(r"(\d+\.\d+\.\d+\.\d+)\s→\s(\d+\.\d+\.\d+\.\d+)", line)
+        if ip_match:
+            src_ip = ip_match.group(1)
+            dst_ip = ip_match.group(2)
+        else:
+            src_ip = dst_ip = None
+
+        # Protokol türü (TLS, TCP, DNS, vs.)
+        protocol_match = re.search(r"\s([A-Za-z0-9]+)\s", line)
+        if protocol_match:
+            protocol = protocol_match.group(1)
+        else:
+            protocol = None
+
+        # Port numaraları (Kaynak ve hedef portları)
+        port_match = re.search(r"(\d+)\s→\s(\d+)", line)
+        if port_match:
+            src_port = int(port_match.group(1))
+            dst_port = int(port_match.group(2))
+        else:
+            src_port = dst_port = None
+
+        # Paket uzunluğu (Len=xxx)
+        length_match = re.search(r"Len=(\d+)", line)
+        if length_match:
+            length = int(length_match.group(1))
+        else:
+            length = None
+
+        # Bayraklar (ACK, SYN, FIN vb.)
+        flags = None
+        if "[ACK]" in line:
+            flags = "ACK"
+        elif "[SYN]" in line:
+            flags = "SYN"
+        elif "[FIN]" in line:
+            flags = "FIN"
+
+        # Çıkarılan veriyi sayısal formata dönüştürme
+        processed_data.append([
+            timestamp,  # Zaman damgası
+            src_ip,  # Kaynak IP
+            dst_ip,  # Hedef IP
+            protocol,  # Protokol
+            src_port,  # Kaynak port
+            dst_port,  # Hedef port
+            length,  # Paket uzunluğu
+            flags  # Bayraklar
+        ])
+
+    processed_data = np.array(processed_data)
+    return processed_data
+
+
+# Gerçek zamanlı izleme sırasında tshark çıktısını işle
 try:
     while True:
-        # Tshark komutunu çalıştırıyoruz ve çıktıyı yakalıyoruz
         result = subprocess.run(tshark_command, capture_output=True, text=True, check=True, encoding='utf-8')
-
-        # Tshark çıktısını yazdırıyoruz
         print(result.stdout)
+
+        # Tshark çıktısını işle
+        processed_data = process_tshark_output(result.stdout)
+
+        # Model ile tahmin yap
+        if processed_data.size > 0:  # Eğer işlenmiş veri varsa
+            processed_tensor = torch.tensor(processed_data, dtype=torch.float32)
+            with torch.no_grad():
+                model.eval()
+                output = model(processed_tensor)
+                predicted_class = torch.argmax(output, axis=1).item()
+
+            # Sonucu yorumla
+            if predicted_class == 0:  # Örneğin, 0 'güvenli' kategorisini temsil ediyor
+                print("Güvenli")
+            else:
+                print("Anormal: Güvenli Değil")
 
 except subprocess.CalledProcessError as e:
     print(f"Tshark komutunu çalıştırırken hata oluştu: {e}")
 except UnicodeDecodeError as e:
     print("Hata: Tshark çıktısı unicode hatası veriyor. Kodlama hatası çözümü gerekiyor.")
-    # Gerekirse alternatif kodlama yöntemini deneyebilirsiniz, örneğin 'latin-1' veya 'utf-16'
     result = subprocess.run(tshark_command, capture_output=True, text=True, check=True, encoding='latin-1')
     print(result.stdout)

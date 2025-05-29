@@ -1,0 +1,1182 @@
+ANORMAL PAKET - Mon May 26 21:24:16 2025
+6   0.372770  20.42.73.31 â†’ 192.168.1.107 TCP 66 443 â†’ 55685 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1440 WS=256 SACK_PERM
+
+ANORMAL PAKET - Mon May 26 21:24:21 2025
+6   1.131437 TPLink_8d:c9:11 â†’ Broadcast    ARP 60 Who has 192.168.1.107? Tell 192.168.1.1
+
+ANORMAL PAKET - Mon May 26 21:24:21 2025
+7   1.131454 Intel_25:a0:03 â†’ TPLink_8d:c9:11 ARP 42 192.168.1.107 is at e0:2e:0b:25:a0:03
+
+ANORMAL PAKET - Mon May 26 21:24:21 2025
+10   1.241868 TPLink_8d:c9:11 â†’ Broadcast    ARP 60 Who has 192.168.1.101? Tell 192.168.1.1
+
+ANORMAL PAKET - Mon May 26 21:24:30 2025
+1   0.000000 192.168.1.107 â†’ 192.168.1.1  DNS 71 Standard query 0xefce AAAA chatgpt.com
+
+ANORMAL PAKET - Mon May 26 21:24:30 2025
+2   0.000130 192.168.1.107 â†’ 192.168.1.1  DNS 71 Standard query 0xa35a A chatgpt.com
+
+ANORMAL PAKET - Mon May 26 21:24:30 2025
+3   0.000185 192.168.1.107 â†’ 192.168.1.1  DNS 71 Standard query 0xb9c4 HTTPS chatgpt.com
+
+ANORMAL PAKET - Mon May 26 21:24:30 2025
+4   0.012180  192.168.1.1 â†’ 192.168.1.107 DNS 127 Standard query response 0xefce AAAA chatgpt.com AAAA 2606:4700:4400::6812:202f AAAA 2606:4700:4400::ac40:9bd1
+
+ANORMAL PAKET - Mon May 26 21:24:30 2025
+5   0.012652  192.168.1.1 â†’ 192.168.1.107 DNS 103 Standard query response 0xa35a A chatgpt.com A 104.18.32.47 A 172.64.155.209
+
+ANORMAL PAKET - Mon May 26 21:24:30 2025
+6   0.089631 192.168.1.107 â†’ 239.255.255.250 SSDP 212 M-SEARCH * HTTP/1.1
+
+ANORMAL PAKET - Mon May 26 21:24:30 2025
+10   0.363133 104.18.32.47 â†’ 192.168.1.107 TCP 66 443 â†’ 55692 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1400 SACK_PERM WS=8192
+
+ANORMAL PAKET - Mon May 26 21:24:34 2025
+8   0.155258 192.168.1.107 â†’ 192.168.1.1  DNS 74 Standard query 0x6dda AAAA www.google.com
+
+ANORMAL PAKET - Mon May 26 21:24:34 2025
+9   0.155548 192.168.1.107 â†’ 192.168.1.1  DNS 74 Standard query 0xaad5 A www.google.com
+
+ANORMAL PAKET - Mon May 26 21:24:34 2025
+10   0.155758 192.168.1.107 â†’ 192.168.1.1  DNS 74 Standard query 0xbadf HTTPS www.google.com
+
+ANORMAL PAKET - Mon May 26 21:24:38 2025
+1   0.000000 192.168.1.107 â†’ 192.168.1.1  DNS 94 Standard query 0xad4c A p2p-par1.discovery.steamserver.net
+
+ANORMAL PAKET - Mon May 26 21:24:38 2025
+2   0.005868 fe80::6c2e:b238:8e62:a1d â†’ ff02::fb     MDNS 274 Standard query response 0x0000 PTR Altunay._dosvc._tcp.local SRV 0 0 7680 Altunay.local TXT
+
+ANORMAL PAKET - Mon May 26 21:24:38 2025
+3   0.006644 fe80::6c2e:b238:8e62:a1d â†’ ff02::fb     MDNS 105 Standard query 0x0000 ANY Altunay._dosvc._tcp.local, "QM" question
+
+ANORMAL PAKET - Mon May 26 21:24:38 2025
+4   0.012045  192.168.1.1 â†’ 192.168.1.107 DNS 126 Standard query response 0xad4c A p2p-par1.discovery.steamserver.net A 185.25.182.52 A 185.25.182.20
+
+ANORMAL PAKET - Mon May 26 21:24:38 2025
+5   0.271461 fe80::6c2e:b238:8e62:a1d â†’ ff02::fb     MDNS 105 Standard query 0x0000 ANY Altunay._dosvc._tcp.local, "QM" question
+
+ANORMAL PAKET - Mon May 26 21:24:38 2025
+6   0.537879 fe80::6c2e:b238:8e62:a1d â†’ ff02::fb     MDNS 105 Standard query 0x0000 ANY Altunay._dosvc._tcp.local, "QM" question
+
+ANORMAL PAKET - Mon May 26 21:24:38 2025
+7   0.802297 fe80::6c2e:b238:8e62:a1d â†’ ff02::fb     MDNS 331 Standard query response 0x0000 PTR, cache flush Altunay._dosvc._tcp.local SRV, cache flush 0 0 7680 Altunay.local TXT, cache flush A, cache flush 192.168.1.100 AAAA, cache flush fe80::6c2e:b238:8e62:a1d
+
+ANORMAL PAKET - Mon May 26 21:24:38 2025
+8   0.802297 fe80::6c2e:b238:8e62:a1d â†’ ff02::fb     MDNS 275 Standard query response 0x0000 SRV, cache flush 0 0 7680 Altunay.local TXT, cache flush A, cache flush 192.168.1.100 AAAA, cache flush fe80::6c2e:b238:8e62:a1d
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 21:54:57
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 21:55:01
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 21:55:31
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:02:45
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:10:06
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:10:06
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:10:06
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:11:23
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:11:23
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:11:23
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:11:27
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:13:09
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:13:09
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:13:47
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:13:47
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:14:06
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:15:11
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:15:11
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:15:11
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:15:11
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:15:16
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:15:48
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:15:48
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:17:06
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:17:06
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:17:06
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:17:06
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:17:50
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:17:50
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:17:50
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:17:50
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:17:55
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:18:00
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:19:06
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:19:39
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:19:39
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:19:39
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:19:50
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:20:54
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:20:54
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:21:44
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:22:12
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:22:12
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:22:12
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:22:22
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:22:26
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:23:03
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:25:23
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:25:23
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:25:23
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:25:48
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:25:48
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:26:27
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:26:27
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:26:37
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:27:23
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:27:28
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:27:43
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:27:43
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:27:54
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:27:59
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:28:32
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:28:32
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:28:32
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:28:53
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:28:53
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:29:02
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:29:02
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:29:24
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:29:24
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:29:24
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:29:37
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:29:37
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:29:48
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:29:48
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:29:48
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:29:48
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:29:53
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:29:59
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:30:03
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:30:11
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:30:11
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:30:19
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:30:59
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:30:59
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:30:59
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:31:07
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:31:07
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:31:07
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:31:07
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:31:43
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:31:43
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:31:43
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:31:43
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:31:43
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:31:43
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:31:43
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:32:31
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:32:47
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:32:47
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:32:56
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:32:56
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:32:56
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:32:56
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:33:45
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:33:55
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:33:55
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:33:55
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:34:16
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:34:16
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:34:16
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:34:16
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:34:23
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:34:23
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:34:29
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:35:19
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:35:19
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:35:19
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:35:33
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:35:33
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:35:33
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:35:33
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:35:33
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:35:33
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:35:33
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:35:53
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:35:53
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:35:53
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:35:53
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:35:53
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:35:53
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:36:15
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:36:15
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:36:15
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:36:15
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:36:15
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:36:48
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:36:48
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:36:48
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:36:48
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:36:48
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:36:48
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:36:48
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:37:14
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:37:14
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:37:14
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:37:34
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:37:34
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:37:34
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:38:04
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:38:04
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:38:21
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:38:21
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:38:21
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:38:21
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:39:49
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:39:49
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:39:49
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:39:53
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:39:53
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:39:57
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:39:57
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:39:57
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:39:57
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:40:19
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:40:19
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:40:19
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:40:53
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:40:53
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:40:53
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:41:14
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:41:14
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:41:14
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:41:20
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:41:20
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:41:20
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:41:24
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:41:24
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:41:24
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:41:24
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:41:27
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:41:29
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:42:03
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:42:30
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:42:30
+
+⚠️ Saldırı Tespit Edildi!
+Kaynak IP: 
+Hedef Port: 0
+Paket Sayısı: 1
+Zaman: 2025-05-26 22:42:30
+
