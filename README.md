@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/4b35a0d1-4871-4b12-acc6-204ebd61e4db)Bu proje, gerçek zamanlı ağ trafiğini analiz ederek anomali tespiti yapmayı amaçlayan bir yapay zeka destekli siber güvenlik sistemidir.
+Bu proje, gerçek zamanlı ağ trafiğini analiz ederek anomali tespiti yapmayı amaçlayan bir yapay zeka destekli siber güvenlik sistemidir.
 Wireshark'ın komut satırı aracı olan tshark ile veriler toplanır, işlenir ve daha önceden eğitilmiş bir yapay sinir ağı modeliyle olası saldırılar tespit edilir.
 
 Proje Dosya Yapısı
