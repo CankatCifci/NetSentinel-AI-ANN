@@ -1,4 +1,4 @@
-Bu proje, gerçek zamanlı ağ trafiğini analiz ederek anomali tespiti yapmayı amaçlayan bir yapay zeka destekli siber güvenlik sistemidir.
+![image](https://github.com/user-attachments/assets/4b35a0d1-4871-4b12-acc6-204ebd61e4db)Bu proje, gerçek zamanlı ağ trafiğini analiz ederek anomali tespiti yapmayı amaçlayan bir yapay zeka destekli siber güvenlik sistemidir.
 Wireshark'ın komut satırı aracı olan tshark ile veriler toplanır, işlenir ve daha önceden eğitilmiş bir yapay sinir ağı modeliyle olası saldırılar tespit edilir.
 
 Proje Dosya Yapısı
@@ -8,11 +8,11 @@ Proje Dosya Yapısı
  ┣ 📄 label_map.json              # Sınıf isimleri haritası
  ┣ 📄 Darknet.CSV                 # Kullanılan veri seti
  ┣ 📄 ModelTraining.py            # Model eğitim scripti
- ┣ 📄 deneme3.py                  # Gerçek zamanlı izleme scripti
+ ┣ 📄 deneme 4 zamanlı.py         # Gerçek zamanlı izleme scripti
 
  Python 3.8+ ile çalışır.
  pip install torch pandas numpy scikit-learn
- Wireshark'ı yükledikten sonra, tshark.exe yolunu deneme3.py içinde kendi sistemine göre güncelle:
+ Wireshark'ı yükledikten sonra, tshark.exe yolunu  deneme 4 zamanlı.py içinde kendi sistemine göre güncelle:
 
  tshark_cmd = [
     "C:\\Program Files\\Wireshark\\tshark.exe",  # Windows için yol
@@ -35,7 +35,7 @@ Kayıp Fonksiyonu: CrossEntropyLoss
 anomaly_detector.pth – Eğitilmiş model ağırlıkları
 label_map.json – Sınıf ID – isim eşlemesi
 
- Gerçek Zamanlı Anomali Tespiti (deneme3.py)
+ Gerçek Zamanlı Anomali Tespiti ( deneme 4 zamanlı.py)
 Bu script, gerçek zamanlı paket verilerini tshark ile alır ve her paketi eğitilmiş modele göndererek “normal” ya da “anormal” sınıflandırması yapar.
 Kullanılan Özellikler:
 Paket uzunluğu
